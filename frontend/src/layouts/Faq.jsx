@@ -8,7 +8,7 @@ const Faq = () => {
         {[
           {
             q: "What details are shown on cards?",
-            a: "School name, address, city and image—exactly as required in the brief.",
+            a: "School name, address, city and image.",
           },
           {
             q: "Is this mobile friendly?",
@@ -16,7 +16,7 @@ const Faq = () => {
           },
           {
             q: "Can I upload images?",
-            a: "This UI is a static demo. Hook your upload logic to store files under `schoolImages/`.",
+            a: "This UI is a static demo.",
           },
         ].map((item, i) => (
           <details

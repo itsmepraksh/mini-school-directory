@@ -13,7 +13,7 @@ const Hero = () => {
             </h1>
             <p className="mt-4 max-w-prose text-zinc-300">
               A minimal platform to browse schools like products. Add details, upload images, and
-              present everything beautifully—built with React & Tailwind (dark theme).
+              present everything beautifully, built with React & Tailwind.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <button onClick={()=>navigate('/showSchool')} className="rounded-xl bg-emerald-500 px-5 py-3 font-semibold text-zinc-900 hover:bg-emerald-400">

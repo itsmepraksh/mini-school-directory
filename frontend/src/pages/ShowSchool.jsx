@@ -1,4 +1,6 @@
- 
+import { toast } from "react-toastify";
+import axios from "../utils/axios";
+import { useEffect } from "react";
 
 const ShowSchools = () => {
   // Dummy data (later replace with API data)
@@ -25,6 +27,24 @@ const ShowSchools = () => {
       image: "https://via.placeholder.com/300x200.png?text=School+3",
     },
   ];
+
+  useEffect(() => {
+    const renderData = async () => {
+      const response = await axios.get("/showSchool");
+
+      try {
+        if (response.status == 200) {
+          console.log(response)
+          
+        } else throw err("Error during fetching Data from DB..");
+      } catch (err) {
+        // toast.error(err.response?.data.error || "something got wrong...");
+        console.error("Error :", err.message);
+      }
+    };
+
+    renderData();
+  }, []);
 
   return (
     <div className="min-h-screen bg-zinc-800 p-8">

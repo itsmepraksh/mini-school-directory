@@ -15,7 +15,7 @@ const Footer = () => {
             <Link to={"/lost"} className="hover:text-emerald-400"   aria-label="Terms of Service">
               Terms
             </Link>
-            <Link to={"/lost"} className="hover:text-emerald-400"  aria-label="Contact">
+            <Link to={"https://www.linkedin.com/in/itsmepraksh/"} className="hover:text-emerald-400"  aria-label="Contact">
               Contact
             </Link>
           </div>
