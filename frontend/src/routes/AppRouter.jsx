@@ -10,6 +10,7 @@ const AppRouter = () => {
     <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/home" element={<Home/>}/>
+        <Route path="/school" element={<ShowSchools/>}/>
         <Route path="/addSchool" element={<AddSchool/>} />
         <Route path="/lost" element={<Working/>} /> 
         <Route path="/showSchool" element={<ShowSchools/>}/>

@@ -22,7 +22,7 @@ const Featured = () => {
               key={i}
               className="group overflow-hidden rounded-2xl border border-zinc-700 bg-zinc-900"
             >
-              <div className="aspect-[4/3] w-full bg-zinc-800" />
+              <div className="aspect-[4/3] w-full bg-cover bg-[url('https://images.unsplash.com/photo-1630705605873-5d7776c38d78?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]" />
               <div className="p-4">
                 <h3 className="truncate text-lg font-semibold">
                   Greenwood High School #{i + 1}

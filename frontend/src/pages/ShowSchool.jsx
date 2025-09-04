@@ -10,21 +10,21 @@ const ShowSchools = () => {
       name: "Green Valley High School",
       address: "123 Park Street",
       city: "Mumbai",
-      image: "https://via.placeholder.com/300x200.png?text=School+1",
+      image: "https://images.unsplash.com/photo-1629470937900-f9ef0f2a8086?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       id: 2,
       name: "Sunrise Public School",
       address: "456 River Road",
       city: "Delhi",
-      image: "https://via.placeholder.com/300x200.png?text=School+2",
+      image: "https://images.unsplash.com/photo-1629470937900-f9ef0f2a8086?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       id: 3,
       name: "Bluebell Academy",
       address: "789 Lake View",
       city: "Bangalore",
-      image: "https://via.placeholder.com/300x200.png?text=School+3",
+      image: "https://images.unsplash.com/photo-1629470937900-f9ef0f2a8086?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
   ];
 

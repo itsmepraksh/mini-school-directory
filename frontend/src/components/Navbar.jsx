@@ -15,7 +15,7 @@ const Navbar = () => {
           </div>
           <ul className="hidden gap-7 text-sm md:flex">
             <li onClick={()=>navigate('/home')} className="hover:text-emerald-400 cursor-pointer">Home</li>
-            <li onClick={()=>navigate('/lost')} className="hover:text-emerald-400 cursor-pointer">Schools</li>
+            <li onClick={()=>navigate('/school')} className="hover:text-emerald-400 cursor-pointer">Schools</li>
             <li onClick={()=>navigate('/lost')} className="hover:text-emerald-400 cursor-pointer">About</li>
             <li onClick={()=>navigate('/lost')} className="hover:text-emerald-400 cursor-pointer">Contact</li>
           </ul>
